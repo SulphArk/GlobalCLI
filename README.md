@@ -60,14 +60,27 @@ It also just handles resizing your terminal window mid-run — the globe redraws
 ## A few honest caveats
 
 - Border accuracy is "good enough to look right at a glance," not survey-grade.
-- SIGWINCH (the resize signal) doesn't always fire reliably through some SSH clients or tmux setups, so a resize might lag a frame behind on those. Not worth losing sleep over.
 - This was built for fun, not for production anything. Treat it accordingly.
 
 ## License Important
 
 MIT — do whatever you want with it.
 
-**Known Issues & Visual Bugs**
+## KNOWN ISSUE WITH PROJECT
+
+### RANDOM WHITE ANSI
+
+<img width="666" height="720" alt="screenshot-2026-07-20_04-19-08" src="https://github.com/user-attachments/assets/966b7620-e70a-48a9-9f18-3ce9fbb525b5" />
+
+
+I have no idea why this is but I will try to solve.
+
+### FORMATING ISSUE (priority fix)
+
+<img width="1366" height="768" alt="screenshot-2026-07-20_04-09-09" src="https://github.com/user-attachments/assets/9dbb95ab-758a-4e64-9fd2-e323253c4658" />
+
+no idea why this happens but will try to fix as soon as posible.
+
 
 
 
